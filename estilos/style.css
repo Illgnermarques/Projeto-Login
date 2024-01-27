@@ -41,8 +41,7 @@ section#login{
 
 section#login > div{
     display: block;
-    background: #5f2c82 url(../imagens/prédio.jpg);
-    background-repeat: no-repeat;
+    background: #5f2c82 url(../imagens/prédio.jpg) no-repeat;
     background-position: left bottom;
     background-size: cover;
     height: 250px;
@@ -51,4 +50,13 @@ section#login > div{
 section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
